@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer components {
+  .btn {
+    @apply focus:bg-blue-500 rounded-full px-4 py-2;
+  }
+
+  .side {
+    @apply block px-4 py-2 hover:bg-gray-700;
+  }
+
+  .hover-nav {
+    @apply hover:translate-x-2 transition duration-500 hover:scale-115;
+  }
+
+  .grid-container {
+    @apply container w-[400px] h-60 bg-white rounded-4xl ;
+  }
+
+  .yellowtail {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .nonito-font {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
