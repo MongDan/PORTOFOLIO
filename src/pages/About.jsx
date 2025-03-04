@@ -26,7 +26,7 @@ const About = () => {
         }`}
       >
         <img
-          src="./src/assets/Dandy.png"
+          src="/img/Dandy.png"
           alt=""
           className="border rounded-t-full bg-gradient-to-r from-gray-400 to-slate-600"
         />
@@ -123,21 +123,21 @@ const About = () => {
         </h1>
         <div className="grid-container">
           <img
-            src="./src/assets/voli.jpeg"
+            src="/img/voli.jpeg"
             alt=""
             className="object-cover bg-center rounded-xl h-[100%] w-[100%] shadow-xl"
           />
         </div>
         <div className="grid-container">
           <img
-            src="./src/assets/gym.jpeg"
+            src="/img/gym.jpeg"
             alt=""
             className="object-cover bg-center rounded-xl h-[100%] w-[100%] shadow-xl"
           />
         </div>
         <div className="grid-container">
           <img
-            src="./src/assets/game.png"
+            src="/img/game.png"
             alt=""
             className="object-cover bg-center rounded-xl h-[100%] w-[100%] shadow-xl"
           />

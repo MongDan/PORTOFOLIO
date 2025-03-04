@@ -27,35 +27,35 @@ const Home = () => {
           <div className="flex space-x-10 ml-2 mt-3">
             <Link to="/">
               <img
-                src="./src/assets/home.svg"
+                src="/img/home.svg"
                 alt=""
                 className="size-10 mt-2 hover-nav"
               />
             </Link>
             <Link to="/contact">
               <img
-                src="./src/assets/PESAN.svg"
+                src="/img/PESAN.svg"
                 alt=""
                 className="size-10 mt-2 hover-nav ml-2"
               />
             </Link>
             <Link to="/about">
               <img
-                src="./src/assets/user.svg"
+                src="/img/user.svg"
                 alt=""
                 className="mt-2 hover-nav ml-2 size-10"
               />
             </Link>
             <Link to="/project">
               <img
-                src="./src/assets/work.svg"
+                src="/img/work.svg"
                 alt=""
                 className="mt-2 hover-nav ml-2 size-10"
               />
             </Link>
             <Link to="/album">
               <img
-                src="./src/assets/photo.svg"
+                src="/img/photo.svg"
                 alt=""
                 className="mt-2 hover-nav ml-2 size-10"
               />
@@ -64,11 +64,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img
-            src="./src/assets/Dandy2.png"
-            alt=""
-            className="scale-120 ml-40"
-          />
+          <img src="/img/Dandy2.png" alt="" className="scale-120 ml-40" />
         </div>
       </div>
 
