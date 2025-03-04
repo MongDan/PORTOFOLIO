@@ -16,42 +16,42 @@ const Album = () => {
         <div className="justify-center py-40 space-x-20 px-20 grid grid-cols-3">
           <div className="grid-container -mt-20 hover:scale-110 transition duration-100 ease-in-out ">
             <img
-              src="./src/img/foto1.jpg"
+              src="./src/assets/foto1.jpg"
               alt=""
               className="object-cover rounded-xl h-[100%] w-[100%] "
             />
           </div>
           <div className="grid-container -mt-20 hover:scale-110 transition-all duration-300 ">
             <img
-              src="./src/img/foto2.jpg"
+              src="./src/assets/foto2.jpg"
               alt=""
               className="object-cover rounded-xl h-[100%] w-[100%] "
             />
           </div>
           <div className="grid-container -mt-20 hover:scale-110 transition duration-100 ease-in-out ">
             <img
-              src="./src/img/foto3.jpg"
+              src="./src/assets/foto3.jpg"
               alt=""
               className="object-cover rounded-xl h-[100%] w-[100%] "
             />
           </div>
           <div className="grid-container mt-10 hover:scale-110 transition duration-100 ease-in-out ">
             <img
-              src="./src/img/foto4.jpg"
+              src="./src/assets/foto4.jpg"
               alt=""
               className="object-cover rounded-xl h-[100%] w-[100%] "
             />
           </div>
           <div className="grid-container mt-10 hover:scale-110 transition duration-100 ease-in-out">
             <img
-              src="./src/img/foto5.jpg"
+              src="./src/assets/foto5.jpg"
               alt=""
               className="object-cover bg-center rounded-xl h-[100%] w-[100%] "
             />
           </div>
           <div className="grid-container mt-10 hover:scale-110 transition duration-100 ease-in-out ">
             <img
-              src="./src/img/foto6.jpg"
+              src="./src/assets/foto6.jpg"
               alt=""
               className="object-cover rounded-xl h-[100%] w-[100%] "
             />

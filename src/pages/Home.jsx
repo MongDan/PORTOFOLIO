@@ -64,7 +64,11 @@ const Home = () => {
         </div>
 
         <div>
-          <img src="./src/img/Dandy2.png" alt="" className="scale-120 ml-40" />
+          <img
+            src="./src/assets/Dandy2.png"
+            alt=""
+            className="scale-120 ml-40"
+          />
         </div>
       </div>
 

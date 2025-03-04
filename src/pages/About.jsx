@@ -20,9 +20,13 @@ const About = () => {
       >
         I&apos;m Dandy
       </h1>
-      <div className={`mt-30 flex justify-end ${show ? 'opacity-100' : 'opacity-0'}`}>
+      <div
+        className={`mt-30 flex justify-end ${
+          show ? "opacity-100" : "opacity-0"
+        }`}
+      >
         <img
-          src="./src/img/Dandy.png"
+          src="./src/assets/Dandy.png"
           alt=""
           className="border rounded-t-full bg-gradient-to-r from-gray-400 to-slate-600"
         />
@@ -119,21 +123,21 @@ const About = () => {
         </h1>
         <div className="grid-container">
           <img
-            src="./src/img/voli.jpeg"
+            src="./src/assets/voli.jpeg"
             alt=""
             className="object-cover bg-center rounded-xl h-[100%] w-[100%] shadow-xl"
           />
         </div>
         <div className="grid-container">
           <img
-            src="./src/img/gym.jpeg"
+            src="./src/assets/gym.jpeg"
             alt=""
             className="object-cover bg-center rounded-xl h-[100%] w-[100%] shadow-xl"
           />
         </div>
         <div className="grid-container">
           <img
-            src="./src/img/game.png"
+            src="./src/assets/game.png"
             alt=""
             className="object-cover bg-center rounded-xl h-[100%] w-[100%] shadow-xl"
           />
